@@ -63,7 +63,6 @@ int main()
 
 		resize(framep, people, frame.size());
 
-
 		if ((frame.data != NULL) && (people.data != NULL)) {
 			people.copyTo(result);
 			Mat mask = Mat::zeros(frame.size(), CV_8UC1);
